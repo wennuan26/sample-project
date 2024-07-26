@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lanka ICC Registration</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            text-align: center;
+            color: #555;
+            max-width: 600px;
+            margin: 0 auto 20px auto;
+            font-size: 16px;
+        }
+        form {
+            margin: 0;
+            padding: 20px;
+            border: 2px solid #668080;
+            border-radius: 20px;
+            max-width: 500px;
+            background: #638b8b;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin: 15px 0 5px;
+            font-size: 14px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 14px 20px;
+            margin: 10px 0;
+            background-color: #2d7a7a;
+            color: #fff;
+            border: 1px solid #2d7a7a;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="text"]:focus {
+            border-color: #1a5959;
+            outline: none;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #2d7a7a;
+            border-radius: 5px;
+            background-color: #2d7a7a;
+            color: #fff;
+            cursor: pointer;
+        }
+        select:focus {
+            border-color: #1a5959;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Sri Lanka ICC Registration</h1>
+        <p>Sri Lanka, historically known as Ceylon and officially the Democratic Socialist Republic of Sri Lanka, is an island country in South Asia.</p>
+        <form action="/action_page.php">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" value="">
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" value="">
+
+            <label for="gender">Gender:</label>
+            <label><input type="radio" id="male" name="gender" value="male"> Male</label>
+            <label><input type="radio" id="female" name="gender" value="female"> Female</label>
+
+            <label for="language">Choose A Language:</label>
+            <select name="language" id="language">
+                <option value="English">English</option>
+                <option value="Sinhala">Sinhala</option>
+                <option value="Tamil">Tamil</option>
+                <option value="Japanese">Japanese</option>
+            </select>
+        </form>
+    </div>
+</body>
+</html>
